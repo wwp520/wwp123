@@ -1,0 +1,95 @@
+/* CSS Document */
+*,html,body{margin:0;padding:0;font:10px/1.5 Tahoma,Verdana,"Hiragino Sans GB","\5FAE\8F6F\96C5\9ED1",sans-serif;}
+html,body{width:100%;height:100%;background:#fcfcfc;}
+a,img{border:0 none;text-decoration:none;display:block;}
+ul,ol,li{list-style:none;}
+.center{text-align:center;}
+button{background:#0085d2;color:#f8f8f8;line-height:100%;border-radius:3px;text-align:center;border:0 none;border:1px solid #0085d2;}
+button.gray{background:#ccc;border:1px solid #ccc;}
+button.code{height:36px;width:108px;font-size:1.5em;margin-left:5px;}
+button.confirm{padding:12px 0;font-size:2em;width:88%;margin:0 6%;}
+button.stepBtn{width:44%;display:inline-block;padding:12px 0;font-size:2em;}
+button.prev{background:#fcfcfc;color:#0085d2;margin-right:5px;}
+
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0;}
+.clearfloat{zoom:1;}
+
+.main-content{width:100%;max-width:1190px;margin:0 auto;overflow-x:hidden;overflow-y:auto;}
+.copyright{color:#b3b3b3;width:100%;text-align:center;font-size:1.4em;margin-top:15px;}
+.copyright span{font-size:1em;margin-right:10px;}
+.bottom{width:100%;padding:100px 0 15px 0;}
+.bottom.fix{/*position:absolute;bottom:15px;padding:0;*/}
+
+.header{background:#0085d2;color:#f8f8f8;text-align:center;width:100%;position:relative;padding:10px 0;}
+.header .title{font-size:1.8em;}
+.header .subtitle{margin:10px 0 10px;font-size:1.2em;}
+.stepUL li{border:1px solid #65b5e3;display:inline-block;width:12px;height:4px;margin:0 1px;}
+.stepUL li.cur{background:#ffcc00;border:1px solid #ffcc00;}
+.stepUL li.pre{background:#fcfcfc;border:1px solid #fcfcfc;}
+
+.step .list li{padding:10px;height:36px;border-bottom:1px solid #d9d9d9;position:relative;text-align:right;color:#4c4c4c;}
+.step .list li.autoH{height:auto;min-height:36px;}
+.step .list li.center{text-align:center;}
+.step .list li .error{color:#FF3333;}
+.step .list li .icon{position:absolute;left:0;top:0;height:56px;}
+.step .list li .icon img{height:100%;}
+.step .list li .scanning{position:absolute;right:9px;top:9px;height:56px}
+.step .list li .scanning img{height:65%;}
+.step .list li .label{float:left;font-size:1.5em;height:36px;line-height:36px;left:0;}
+.step .list li span{font-size:1.5em;line-height:36px;}
+.step .list li span a{font-size:1em;line-height:36px;}
+.step .list li .select{color:#b2b2b2;font-size:1.5em;line-height:36px;}
+.step .list li .select.selected{color:#0085d2;}
+.step .list li .select.mini{float:right;margin-left:5px;}
+.step .list li .select span{font-size:1em;margin-right:3px;}
+
+.step .list li label{font-size:1.4em;float:left;line-height:36px;margin-right:5px;}
+.step .list li label.radioLabel{float:none;}
+.step .list li label span{color:#b2b2b2;font-size:0.9em;}
+.step .list li input{border:0 none;width:70%	;text-align:right;font-size:1.4em;line-height:100%;color:#4c4c4c;height:36px;}
+.step .list li input.short{width:145px;}
+.step .list li input.tiny{width:15%;padding-right:1%;}
+.step .list li input.tiny.tiny2{width:25%;border-right:1px solid #d9d9d9;border-left:1px solid #d9d9d9;}
+.step .list li input.tiny.tiny3{width:19%;}
+.step .list li input.tiny.tiny4{width:12%;}
+.step .list li input.middle{width:54%;}
+.step .list li .blue{color:#0085d2;}
+.step .list li input.radio{width:auto;margin:-4px 0 0 0;vertical-align:middle;margin-left:10px;}
+
+.step .list li select{border:0 none;text-align:right;font-size:1.4em;height:100%;line-height:100%;color:#4c4c4c;width: 115px;}
+
+.attention{color:#0085d2;font-size:1.2em;text-align:right;padding:3px 10px 0 0;}
+.attention1{color:#0085d2;font-size:1.0em;text-align:right;padding:2px 0px 0 0;}
+.testinput{border:0 none;width:70%	;text-align:right;font-size:1.2em;line-height:20%;color:#4c4c4c;height:12px;}
+.success{text-align:center;padding-top:27%;}
+.success img{display:inline-block;width:40%;}
+.successTip{color:#999;font-size:1.4em;margin-top:10%;line-height:30px;}
+
+.optionList{position:fixed;top:0;left:0;bottom:0;right:0;height:100%;width:100%;z-index:99;background:#fcfcfc;display:none;overflow:auto;}
+.optionList .optionUL{margin-top:57px;}
+.optionList li{padding:10px;height:36px;border-bottom:1px solid #d9d9d9;position:relative;text-align:left;color:#4c4c4c;line-height:36px;font-size:1.5em;overflow:hidden;}
+.optionList li.checked{color:#0085d2;}
+
+.date{display:none;border-top:1px solid #d9d9d9;padding-top:10px;}
+.location{padding:10px 0;height:36px;border-bottom:1px solid #d9d9d9;position:fixed;text-align:left;color:#0085d2;line-height:36px;font-size:1.6em;background:#fff;z-index:99;width:100%;}
+.location span{font-size:1em;margin-left:5px;}
+
+#alertMask{position:fixed;left:0;right:0;top:0;bottom:0;background:#000;opacity:0.3;z-index:99;display:none;}
+#alertForm{position:fixed;left:15%;right:15%;top:20%;width:70%;background:#fff;z-index:100;text-align:center;display:none;padding:20px 0;border-radius:4px;}
+#alertInfo{word-break: break-all;font-size:1.8em;margin:10px auto;}
+button#alertClose{font-size:1.5em;padding:5px 20px;}
+
+
+#notify-container{width:100%;position:absolute;top:50px;} 
+.alert{padding:8px 10px;margin:auto;border:1px solid #eed3d7;border-radius:relative;top:0;width:80%font-siZE:70%;}
+.alert-red{color:white;background-color:#DA4453;}
+.alert-blue{color:white;background-color:#4A89DC;}
+
+.bottom2{width:100%;padding:40px 0 15px 0;}
+
+.spantitle{color:#0085d2;font-size:1.4em;padding: 4px}
+.spaninfo{color:#999;font-size:1.4em;padding: 4px}
+
+.postImg{text-align:center;padding-top:0%;}
+.postImg img{width:100%;}
+.postImgTip{color:#999;font-size:1.4em;margin-top:10%;line-height:20px;}

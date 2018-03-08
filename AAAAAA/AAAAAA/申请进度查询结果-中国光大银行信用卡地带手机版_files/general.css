@@ -1,0 +1,26 @@
+/* Global Style Start */
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a img{border:0;}
+input{padding:0; margin:0;}
+.tal{text-align:left !important;}
+.tac{text-align:center !important;}
+.tar{text-align:right !important;}
+.l{float:left !important;}
+.r{float:right !important;}
+.c{zoom:1;}
+.c:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+body{font-size:12px;}
+/*
+.pop, .pop_iframe{position:absolute;z-index:1000;left:0;top:0;}
+.pop_iframe{background:#fff;}
+.pop_overlay{position:absolute;left:0;top:0;background:#666;opacity:0.6;filter:Alpha(Opacity=60);z-index:999}
+.pop_message{background-color:#fff;border:1px solid #ff9933;border-radius:5px;}
+.pop_title{height:32px}
+.pop_title .close{width:12px;height:12px;display:block;text-indent:-9999px;background:url(/images/cebmms/pop.png) 0 -20px;float:right;margin:5px 9px 0 0;}
+.pop_content{padding:0 30px;}
+.pop_content .m_icon{width:42px;height:56px;background:url(/images/cebmms/pop_i.png) no-repeat}
+.pop_content .m_text{width:226px;padding-left:22px;}
+.pop_content .m_text .p_2{margin-top:20px}*/

@@ -1,0 +1,175 @@
+
+<!-- saved from url=(0081)https://ccshop.cib.com.cn:8010/application/cardapp/fastprogress/FastProgress/view -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="./兴业银行信用卡_files/common.css">
+<script src="./兴业银行信用卡_files/jquery-1.9.1.js"></script>
+<script src="./兴业银行信用卡_files/common.js"></script>
+
+<title>兴业银行信用卡</title>
+
+<style type="text/css">
+.step  label{
+padding-right: 20px;
+font-size:14px;
+}
+.list2{margin: 20px 20px 13px 20px;padding: 5px;border: 2px  solid #0085d2;text-align: left;
+background-color:white;-moz-border-radius:15px;padding-left: 2%;
+-webkit-border-radius:15px;border-radius:15px;}
+.list2 span {
+font-size:14px;
+}
+.recommendBtn{
+  width: 40%;
+  height: 44px;
+  margin-left: 30%;
+  line-height: 44px;
+  background: -webkit-linear-gradient(top,#62a0ff 0%,#3284ff 58%,#1c76ff 100%);
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.step .list li input{padding-right: 20px;}
+#imgDiv {height: 36px;width:60px;float: left;margin-top: -5px;}
+.list2 p{width: 62%;border: 0;font-size: 14px;float:left;}
+</style>
+</head>
+<body style="background-color: #F5F5F5!important;">
+<div id="main-content" class="main-content">
+	<div id="header" class="header">
+		<div id="title" class="title">快发申请进度查询</div>
+	</div>
+	<div id="step" class="step" style="display: none;">
+	<form method="post" onsubmit="return checkForm(this);" action="https://ccshop.cib.com.cn:8010/application/cardapp/fastprogress/FastProgress/submitForm">
+		<ul class="list">
+			<li style="height: 36px;">
+				<label for="name">身份证号</label>
+				<input type="text" id="orgcode" maxlength="18" name="orgcode" placeholder="请输入您的身份证号码">
+			</li>
+			<li style="height: 36px;">
+				<label for="code">验证码</label>
+				<div id="imgDiv">
+				<a href="javascript:void(0);" onclick="changeImg(this);">
+				<img name="randImage" id="randImage" alt="验证码" src="./兴业银行信用卡_files/getValidateImg">
+				看不清点我</a>
+				</div>
+				<input type="text" id="code" name="code" class="short" placeholder="请输入获取的验证码" maxlength="4">
+			</li>
+		</ul>
+		<div id="bottom" class="bottom fix">
+			<button id="confirm" class="confirm" type="button" onclick="queryBtn()">查询</button>
+		</div>
+	</form>
+	</div>
+	<div id="detail" style="">
+			<div id="error" class="list2" style="height: 100px; text-align: center; margin-top: 15px; display: none;">
+				<a style="font-size: 14px;padding-top: 37px;" id="errorMessage">您暂无申请信息。</a>
+			</div>
+			<div id="step2" class="step">
+				<div id="list2" class="list2">
+					<label>  申请日期：<span id="applyDate">2018年02月26日</span>	</label><br>
+					<label> 身份证号码：<span id="id">372901********8722</span></label><br>
+					<label> 合作方代码：<span id="channelId" style="color:red;">3918</span></label><br>
+					<label>  项目代码：<span id="projectCode" style="color:red;">F3918003</span></label><br>
+					<label>  线下代码：<span id="spc2s" style="color:red;">3980</span></label><br>
+					<div id="applyCard" style="display: none;"><label style="float: left;padding: 0;"> 申请卡产品：</label><p id="cardNameProduct">星座银联人民币信用卡金卡</p></div>
+					<div id="reusltCard" style="height: 21px;"><label style="float: left;padding: 0;"> 终审卡产品：</label><p id="cardName">星座银联人民币信用卡普卡Ⅱ</p></div>
+					<div id="status" style="height: 21px;"><label style="float: left;padding: 0;">  审核状态：</label><p id="state" style="color:red;">审核通过，等待核身</p></div>
+					<label>状态修改时间：<span id="updateTime">2018年02月26日</span></label>
+					</div>
+			</div>
+		</div>
+		<div>
+		<br><br>
+			<div id="copyright" class="copyright">
+				<span>兴业银行版权所有</span>客服热线：95561
+			</div>
+		</div>
+</div>
+
+<script type="text/javascript">
+function changeImg(obj){
+	var num = Math.random();
+	document.getElementById("randImage").src="../FastProgress/getValidateImg?"+num;
+}
+changeImg();
+$(document).ready(function(){
+    changeImg(document.getElementById("randImage"));
+});
+
+function queryBtn(){
+	//表单提交验证
+	function checkForm(){
+		if($(".error").length > 0){
+			$(".error").eq(0).prev("input").focus();
+			return false;
+		}else{
+			for(var i=0;i<$("input[type=text]").length;i++){
+				if(!$("input[type=text]").eq(i).val()){
+					$("input[type=text]").eq(i).val("").focus();
+					return false;
+				}
+			}
+			return true;
+		}
+	}
+	var checkForm = checkForm();
+	if(checkForm){
+		//确定按钮 变暗淡
+	
+		$.ajax({
+			type:'post',
+			url:'query',
+			dataType:'json',
+			data:{
+				"id":$("#orgcode").val(),				 //机构代码
+				"code":$("#code").val()				//验证码
+			},
+			success: function(data){
+				if(data.code=='000000'){
+					$("#step").hide();
+					$("#detail").show();
+					$("#error").hide();
+					$("#applyDate").html(data.applyDate);
+					$("#id").html(data.id);
+					$("#channelId").html(data.channelId);
+					$("#projectCode").html(data.projectCode);
+					$("#state").html(data.state);
+					$("#cardName").html(data.cardName);
+					$("#cardNameProduct").html(data.cardNameProduct);
+					$("#updateTime").html(data.updateTime);
+					$("#spc2s").html(data.spc2s);
+					$("#status").height($("#state").height());
+					if(data.cardName==null||data.cardName==""){
+						$("#reusltCard").hide();
+						$("#applyCard").height($("#cardNameProduct").height());
+					}else{
+						$("#applyCard").hide();
+						$("#reusltCard").height($("#cardName").height());
+					}
+				}else if(data.code=='error'){
+					$("#step").hide();
+					$("#step2").hide();
+					$("#detail").show();
+					$("#error").show();
+					$("#errorMessage").html(data.errorMessage);
+				}else{
+					changeImg();
+					alert("提交失败，"+data.resInfo);
+				}
+				
+			},
+			error:function(e){
+				alert("查询失败！");
+			}
+		});
+	}
+}
+</script>
+
+</body></html>

@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128FD41C2031372C008CD928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 128FD41B2031372C008CD928 /* AppDelegate.m */; };
+		128FD41F2031372C008CD928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 128FD41E2031372C008CD928 /* ViewController.m */; };
+		128FD4222031372C008CD928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FD4202031372C008CD928 /* Main.storyboard */; };
+		128FD4252031372C008CD928 /* AAAAAA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 128FD4232031372C008CD928 /* AAAAAA.xcdatamodeld */; };
+		128FD4272031372C008CD928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128FD4262031372C008CD928 /* Assets.xcassets */; };
+		128FD42A2031372C008CD928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128FD4282031372C008CD928 /* LaunchScreen.storyboard */; };
+		128FD42D2031372C008CD928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 128FD42C2031372C008CD928 /* main.m */; };
+		128FD4372031372C008CD928 /* AAAAAATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128FD4362031372C008CD928 /* AAAAAATests.m */; };
+		128FD4422031372C008CD928 /* AAAAAAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 128FD4412031372C008CD928 /* AAAAAAUITests.m */; };
+		128FD46220313AA7008CD928 /* 浦东发展银行信用卡.html in Resources */ = {isa = PBXBuildFile; fileRef = 128FD46020313AA7008CD928 /* 浦东发展银行信用卡.html */; };
+		128FD46320313AA7008CD928 /* 浦东发展银行信用卡_files in Resources */ = {isa = PBXBuildFile; fileRef = 128FD46120313AA7008CD928 /* 浦东发展银行信用卡_files */; };
+		804DBC622049416C00CC551E /* 兴业银行信用卡_files in Resources */ = {isa = PBXBuildFile; fileRef = 804DBC602049416C00CC551E /* 兴业银行信用卡_files */; };
+		804DBC632049416C00CC551E /* 兴业银行信用卡.htm in Resources */ = {isa = PBXBuildFile; fileRef = 804DBC612049416C00CC551E /* 兴业银行信用卡.htm */; };
+		80DBCEE520439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版_files in Resources */ = {isa = PBXBuildFile; fileRef = 80DBCEE320439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版_files */; };
+		80DBCEE620439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版.htm in Resources */ = {isa = PBXBuildFile; fileRef = 80DBCEE420439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版.htm */; };
+		80DBCEE920439DC400B927D0 /* GDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBCEE820439DC400B927D0 /* GDViewController.m */; };
+		80DBCEEC2043AAA600B927D0 /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBCEEB2043AAA600B927D0 /* XYViewController.m */; };
+		80DBCEEF2043AB3B00B927D0 /* ZXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBCEEE2043AB3B00B927D0 /* ZXViewController.m */; };
+		80DBCEF22043AB9B00B927D0 /* 申请进度查询_files in Resources */ = {isa = PBXBuildFile; fileRef = 80DBCEF02043AB9B00B927D0 /* 申请进度查询_files */; };
+		80DBCEF32043AB9B00B927D0 /* 申请进度查询.htm in Resources */ = {isa = PBXBuildFile; fileRef = 80DBCEF12043AB9B00B927D0 /* 申请进度查询.htm */; };
+		80DBCEF62043D29900B927D0 /* MSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DBCEF52043D29900B927D0 /* MSViewController.m */; };
+		80DBCEF92043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表.htm in Resources */ = {isa = PBXBuildFile; fileRef = 80DBCEF72043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表.htm */; };
+		80DBCEFA2043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表_files in Resources */ = {isa = PBXBuildFile; fileRef = 80DBCEF82043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表_files */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		128FD4332031372C008CD928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128FD40F2031372C008CD928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128FD4162031372C008CD928;
+			remoteInfo = AAAAAA;
+		};
+		128FD43E2031372C008CD928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 128FD40F2031372C008CD928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 128FD4162031372C008CD928;
+			remoteInfo = AAAAAA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128FD4172031372C008CD928 /* AAAAAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAAAAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		128FD41A2031372C008CD928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		128FD41B2031372C008CD928 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		128FD41D2031372C008CD928 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		128FD41E2031372C008CD928 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		128FD4212031372C008CD928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		128FD4242031372C008CD928 /* AAAAAA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AAAAAA.xcdatamodel; sourceTree = "<group>"; };
+		128FD4262031372C008CD928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		128FD4292031372C008CD928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		128FD42B2031372C008CD928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128FD42C2031372C008CD928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		128FD4322031372C008CD928 /* AAAAAATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAAAAATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128FD4362031372C008CD928 /* AAAAAATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAAAATests.m; sourceTree = "<group>"; };
+		128FD4382031372C008CD928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128FD43D2031372C008CD928 /* AAAAAAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAAAAAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		128FD4412031372C008CD928 /* AAAAAAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAAAAAUITests.m; sourceTree = "<group>"; };
+		128FD4432031372C008CD928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128FD46020313AA7008CD928 /* 浦东发展银行信用卡.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "浦东发展银行信用卡.html"; sourceTree = "<group>"; };
+		128FD46120313AA7008CD928 /* 浦东发展银行信用卡_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "浦东发展银行信用卡_files"; sourceTree = "<group>"; };
+		804DBC602049416C00CC551E /* 兴业银行信用卡_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "兴业银行信用卡_files"; sourceTree = "<group>"; };
+		804DBC612049416C00CC551E /* 兴业银行信用卡.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "兴业银行信用卡.htm"; sourceTree = "<group>"; };
+		80DBCEE320439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "申请进度查询结果-中国光大银行信用卡地带手机版_files"; sourceTree = "<group>"; };
+		80DBCEE420439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请进度查询结果-中国光大银行信用卡地带手机版.htm"; sourceTree = "<group>"; };
+		80DBCEE720439DC400B927D0 /* GDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDViewController.h; sourceTree = "<group>"; };
+		80DBCEE820439DC400B927D0 /* GDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDViewController.m; sourceTree = "<group>"; };
+		80DBCEEA2043AAA600B927D0 /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
+		80DBCEEB2043AAA600B927D0 /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		80DBCEED2043AB3B00B927D0 /* ZXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXViewController.h; sourceTree = "<group>"; };
+		80DBCEEE2043AB3B00B927D0 /* ZXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXViewController.m; sourceTree = "<group>"; };
+		80DBCEF02043AB9B00B927D0 /* 申请进度查询_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "申请进度查询_files"; sourceTree = "<group>"; };
+		80DBCEF12043AB9B00B927D0 /* 申请进度查询.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "申请进度查询.htm"; sourceTree = "<group>"; };
+		80DBCEF42043D29900B927D0 /* MSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSViewController.h; sourceTree = "<group>"; };
+		80DBCEF52043D29900B927D0 /* MSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSViewController.m; sourceTree = "<group>"; };
+		80DBCEF72043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表.htm"; sourceTree = "<group>"; };
+		80DBCEF82043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表_files"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		128FD4142031372C008CD928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128FD42F2031372C008CD928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128FD43A2031372C008CD928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128FD40E2031372C008CD928 = {
+			isa = PBXGroup;
+			children = (
+				128FD4192031372C008CD928 /* AAAAAA */,
+				128FD4352031372C008CD928 /* AAAAAATests */,
+				128FD4402031372C008CD928 /* AAAAAAUITests */,
+				128FD4182031372C008CD928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		128FD4182031372C008CD928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				128FD4172031372C008CD928 /* AAAAAA.app */,
+				128FD4322031372C008CD928 /* AAAAAATests.xctest */,
+				128FD43D2031372C008CD928 /* AAAAAAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		128FD4192031372C008CD928 /* AAAAAA */ = {
+			isa = PBXGroup;
+			children = (
+				128FD41A2031372C008CD928 /* AppDelegate.h */,
+				128FD41B2031372C008CD928 /* AppDelegate.m */,
+				128FD46120313AA7008CD928 /* 浦东发展银行信用卡_files */,
+				128FD46020313AA7008CD928 /* 浦东发展银行信用卡.html */,
+				80DBCEE320439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版_files */,
+				80DBCEE420439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版.htm */,
+				80DBCEF02043AB9B00B927D0 /* 申请进度查询_files */,
+				80DBCEF12043AB9B00B927D0 /* 申请进度查询.htm */,
+				80DBCEF82043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表_files */,
+				80DBCEF72043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表.htm */,
+				804DBC602049416C00CC551E /* 兴业银行信用卡_files */,
+				804DBC612049416C00CC551E /* 兴业银行信用卡.htm */,
+				128FD41D2031372C008CD928 /* ViewController.h */,
+				128FD41E2031372C008CD928 /* ViewController.m */,
+				80DBCEE720439DC400B927D0 /* GDViewController.h */,
+				80DBCEE820439DC400B927D0 /* GDViewController.m */,
+				80DBCEED2043AB3B00B927D0 /* ZXViewController.h */,
+				80DBCEEE2043AB3B00B927D0 /* ZXViewController.m */,
+				80DBCEF42043D29900B927D0 /* MSViewController.h */,
+				80DBCEF52043D29900B927D0 /* MSViewController.m */,
+				80DBCEEA2043AAA600B927D0 /* XYViewController.h */,
+				80DBCEEB2043AAA600B927D0 /* XYViewController.m */,
+				128FD4202031372C008CD928 /* Main.storyboard */,
+				128FD4262031372C008CD928 /* Assets.xcassets */,
+				128FD4282031372C008CD928 /* LaunchScreen.storyboard */,
+				128FD42B2031372C008CD928 /* Info.plist */,
+				128FD42C2031372C008CD928 /* main.m */,
+				128FD4232031372C008CD928 /* AAAAAA.xcdatamodeld */,
+			);
+			path = AAAAAA;
+			sourceTree = "<group>";
+		};
+		128FD4352031372C008CD928 /* AAAAAATests */ = {
+			isa = PBXGroup;
+			children = (
+				128FD4362031372C008CD928 /* AAAAAATests.m */,
+				128FD4382031372C008CD928 /* Info.plist */,
+			);
+			path = AAAAAATests;
+			sourceTree = "<group>";
+		};
+		128FD4402031372C008CD928 /* AAAAAAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				128FD4412031372C008CD928 /* AAAAAAUITests.m */,
+				128FD4432031372C008CD928 /* Info.plist */,
+			);
+			path = AAAAAAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		128FD4162031372C008CD928 /* AAAAAA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128FD4462031372D008CD928 /* Build configuration list for PBXNativeTarget "AAAAAA" */;
+			buildPhases = (
+				128FD4132031372C008CD928 /* Sources */,
+				128FD4142031372C008CD928 /* Frameworks */,
+				128FD4152031372C008CD928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AAAAAA;
+			productName = AAAAAA;
+			productReference = 128FD4172031372C008CD928 /* AAAAAA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		128FD4312031372C008CD928 /* AAAAAATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128FD4492031372D008CD928 /* Build configuration list for PBXNativeTarget "AAAAAATests" */;
+			buildPhases = (
+				128FD42E2031372C008CD928 /* Sources */,
+				128FD42F2031372C008CD928 /* Frameworks */,
+				128FD4302031372C008CD928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128FD4342031372C008CD928 /* PBXTargetDependency */,
+			);
+			name = AAAAAATests;
+			productName = AAAAAATests;
+			productReference = 128FD4322031372C008CD928 /* AAAAAATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		128FD43C2031372C008CD928 /* AAAAAAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 128FD44C2031372D008CD928 /* Build configuration list for PBXNativeTarget "AAAAAAUITests" */;
+			buildPhases = (
+				128FD4392031372C008CD928 /* Sources */,
+				128FD43A2031372C008CD928 /* Frameworks */,
+				128FD43B2031372C008CD928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				128FD43F2031372C008CD928 /* PBXTargetDependency */,
+			);
+			name = AAAAAAUITests;
+			productName = AAAAAAUITests;
+			productReference = 128FD43D2031372C008CD928 /* AAAAAAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		128FD40F2031372C008CD928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = RY;
+				TargetAttributes = {
+					128FD4162031372C008CD928 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					128FD4312031372C008CD928 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 128FD4162031372C008CD928;
+					};
+					128FD43C2031372C008CD928 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 128FD4162031372C008CD928;
+					};
+				};
+			};
+			buildConfigurationList = 128FD4122031372C008CD928 /* Build configuration list for PBXProject "AAAAAA" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 128FD40E2031372C008CD928;
+			productRefGroup = 128FD4182031372C008CD928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				128FD4162031372C008CD928 /* AAAAAA */,
+				128FD4312031372C008CD928 /* AAAAAATests */,
+				128FD43C2031372C008CD928 /* AAAAAAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128FD4152031372C008CD928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DBCEF22043AB9B00B927D0 /* 申请进度查询_files in Resources */,
+				80DBCEE520439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版_files in Resources */,
+				80DBCEF92043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表.htm in Resources */,
+				80DBCEF32043AB9B00B927D0 /* 申请进度查询.htm in Resources */,
+				128FD46320313AA7008CD928 /* 浦东发展银行信用卡_files in Resources */,
+				804DBC622049416C00CC551E /* 兴业银行信用卡_files in Resources */,
+				80DBCEE620439D8600B927D0 /* 申请进度查询结果-中国光大银行信用卡地带手机版.htm in Resources */,
+				80DBCEFA2043D32C00B927D0 /* 中国民生银行信用卡移动官网-业务办理-我的账户-办卡进度-办卡进度列表_files in Resources */,
+				128FD42A2031372C008CD928 /* LaunchScreen.storyboard in Resources */,
+				128FD46220313AA7008CD928 /* 浦东发展银行信用卡.html in Resources */,
+				804DBC632049416C00CC551E /* 兴业银行信用卡.htm in Resources */,
+				128FD4272031372C008CD928 /* Assets.xcassets in Resources */,
+				128FD4222031372C008CD928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128FD4302031372C008CD928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128FD43B2031372C008CD928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		128FD4132031372C008CD928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128FD41F2031372C008CD928 /* ViewController.m in Sources */,
+				80DBCEEC2043AAA600B927D0 /* XYViewController.m in Sources */,
+				128FD4252031372C008CD928 /* AAAAAA.xcdatamodeld in Sources */,
+				80DBCEE920439DC400B927D0 /* GDViewController.m in Sources */,
+				80DBCEF62043D29900B927D0 /* MSViewController.m in Sources */,
+				80DBCEEF2043AB3B00B927D0 /* ZXViewController.m in Sources */,
+				128FD42D2031372C008CD928 /* main.m in Sources */,
+				128FD41C2031372C008CD928 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128FD42E2031372C008CD928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128FD4372031372C008CD928 /* AAAAAATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		128FD4392031372C008CD928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128FD4422031372C008CD928 /* AAAAAAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		128FD4342031372C008CD928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128FD4162031372C008CD928 /* AAAAAA */;
+			targetProxy = 128FD4332031372C008CD928 /* PBXContainerItemProxy */;
+		};
+		128FD43F2031372C008CD928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 128FD4162031372C008CD928 /* AAAAAA */;
+			targetProxy = 128FD43E2031372C008CD928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		128FD4202031372C008CD928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128FD4212031372C008CD928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		128FD4282031372C008CD928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				128FD4292031372C008CD928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		128FD4442031372D008CD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		128FD4452031372D008CD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		128FD4472031372D008CD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z829CD7D9;
+				INFOPLIST_FILE = AAAAAA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.AAAAAA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		128FD4482031372D008CD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z829CD7D9;
+				INFOPLIST_FILE = AAAAAA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.AAAAAA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		128FD44A2031372D008CD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z829CD7D9;
+				INFOPLIST_FILE = AAAAAATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.AAAAAATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAAAAA.app/AAAAAA";
+			};
+			name = Debug;
+		};
+		128FD44B2031372D008CD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z829CD7D9;
+				INFOPLIST_FILE = AAAAAATests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.AAAAAATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AAAAAA.app/AAAAAA";
+			};
+			name = Release;
+		};
+		128FD44D2031372D008CD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z829CD7D9;
+				INFOPLIST_FILE = AAAAAAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.AAAAAAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AAAAAA;
+			};
+			name = Debug;
+		};
+		128FD44E2031372D008CD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Z829CD7D9;
+				INFOPLIST_FILE = AAAAAAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asd.AAAAAAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AAAAAA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		128FD4122031372C008CD928 /* Build configuration list for PBXProject "AAAAAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128FD4442031372D008CD928 /* Debug */,
+				128FD4452031372D008CD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128FD4462031372D008CD928 /* Build configuration list for PBXNativeTarget "AAAAAA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128FD4472031372D008CD928 /* Debug */,
+				128FD4482031372D008CD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128FD4492031372D008CD928 /* Build configuration list for PBXNativeTarget "AAAAAATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128FD44A2031372D008CD928 /* Debug */,
+				128FD44B2031372D008CD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		128FD44C2031372D008CD928 /* Build configuration list for PBXNativeTarget "AAAAAAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				128FD44D2031372D008CD928 /* Debug */,
+				128FD44E2031372D008CD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		128FD4232031372C008CD928 /* AAAAAA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				128FD4242031372C008CD928 /* AAAAAA.xcdatamodel */,
+			);
+			currentVersion = 128FD4242031372C008CD928 /* AAAAAA.xcdatamodel */;
+			path = AAAAAA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 128FD40F2031372C008CD928 /* Project object */;
+}
